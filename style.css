@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
