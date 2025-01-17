@@ -38,6 +38,6 @@ const container = (
     </form>
   </div>
 );
-
+console.log(container);
 var root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(container);
