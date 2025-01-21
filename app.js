@@ -2,7 +2,7 @@ const container = (
   <div className="container">
     <div className="cards">
       <div className="card">
-        <h2>Study React</h2>
+        <h2 style = {{color:"blue"}}>Study React</h2>
         <img
           src="https://www.curotec.com/wp-content/uploads/2024/10/top-uses-for-react-e1729004277386.jpg?w=1024"
           style={{ width: "300px" }}
@@ -14,7 +14,7 @@ const container = (
         </p>
       </div>
       <div className="card">
-        <h2>Learn React</h2>
+        <h2 style = {{color:"red"}}>Learn React</h2>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbdCxfo8H5NcKMZcGw2VK9hEEBS2-oB63XpA&amp;s"
           style={{ width: "300px" }}

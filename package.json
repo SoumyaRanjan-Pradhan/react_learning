@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./app.js -d lib"
+    "build": "babel ./app.js -d lib --watch"
   },
   "author": "Soumya Ranjan Pradhan",
   "license": "ISC",
