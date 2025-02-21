@@ -1,20 +1,5 @@
-.cards {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.card {
-    border: 1px solid black;
-    width: 300px;
-    overflow: hidden;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 6px;
-}
-
-h3,
-p {
-    margin: 0;
-    padding:5px;
-}
+.box{display: flex;justify-content: space-between;}
+.basket{border: 1px solid black;width:200px;text-align: center;}
+button{cursor:pointer}
+button img{width:50px;}
+.cover{width: 500px;margin:auto;text-align: center;}
