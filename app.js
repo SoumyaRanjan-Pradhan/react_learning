@@ -1,10 +1,13 @@
-import React from "react";
-import Table from "./Table";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
+import "./style.css";
 
 const App = () => {
+  console.log("App component render");
   return (
     <>
-      <Table/>
+      <Header />
+      <Main />
     </>
   );
 };
